@@ -1,0 +1,343 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family:'Plus Jakarta Sans', sans-serif;;
+    margin: 0;
+    padding: 0;
+    line-height:1.6;
+    color: #333;
+    background-color: #ffffff;
+  }
+
+
+  header {
+    background-image: linear-gradient(to bottom, rgba(0, 89, 255, 0.35), rgb(255, 0, 0));
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  .navbar ul li {
+    margin: 0 15px;
+  }
+
+  .navbar ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+
+  .navbar ul li a:hover {
+    color: #000000; /
+  }
+
+  .navbar ul li a.active {
+    background-color: #ff0000;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: bold;
+  }
+
+  .profile-pic {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+
+  }
+
+  .about-me {
+    text-align:justify;
+  }
+
+  .about-me .about-profile-pic {
+    display: block;
+    margin: 0 auto;
+    width:500x;
+    height:950px;
+    object-fit: cover;
+    margin-bottom: 20px;
+
+  }
+
+
+
+
+
+  .about-me h2 {
+    font-size: 3rem;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  .about-me h3 {
+    font-size: 3rem;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+
+  .about-me p {
+    font-size: 2rem;
+    color: #555;
+    line-height: 2;
+  }
+
+
+  .portfolio {
+    text-align: center;
+    padding: 50px 20px;
+  }
+
+  .projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .project {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    height: 150px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .project:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  .project a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+    transition: color 0.3s ease;
+  }
+
+  .blog {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ffffff;
+    margin: 30px auto;
+    max-width: 800px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .blog-post {
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .blog-post:last-child {
+    border-bottom: none;
+  }
+
+  .blog-post h3 {
+    font-size: 1.5rem;
+    color: #494949;
+    margin-bottom: 10px;
+  }
+
+  .blog-post a {
+    color: #686868;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+
+
+  footer {
+    background-color: #2e8b57;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+    font-size: 0.9rem;
+  }
+
+  footer a:hover {
+    color: white;
+  }
+
+  .contact {
+    padding: 40px 20px;
+    background-color: #f7f9fc;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 40px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+
+  .contact-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .contact-item {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #e1e5eb;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .contact-item i {
+    font-size: 24px;
+    color: #4d4c4c;
+  }
+
+  .contact-item a {
+    color: #feb2d0;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .contact-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background:  linear-gradient(to bottom, rgb(255, 0, 0), rgb(89, 0, 255));
+    padding: 10px 30px;
+    font-size: 14px;
+  }
+
+.about-section {
+    padding: 4rem 2rem;
+    text-align: center;
+    background: #f1f1f1;
+}
+
+.about-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #feb2d0;
+}
+
+.about-section p {
+    font-size: 1rem;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.services-section {
+    padding: 4rem 2rem;
+    background: #fff;
+    text-align: center;
+}
+
+.services-section h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #feb2d0;
+}
+
+.service-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.service-card {
+    background: #f9f9f9;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #feb2d0;
+}
+
+.service-card p {
+    color: #666;
+}
+
+.contact-section {
+    padding: 4rem 2rem;
+    text-align: center;
+    background: #f1f1f1;
+}
+
+.contact-section h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #f34040;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 1rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.contact-form button {
+    padding: 1rem;
+    font-size: 1rem;
+    color: #fff;
+    color: #f34040;
+    background: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+    background: #000000;
+}
+
+.card{
+  transition: 0,5 ease;
+  cursor: pointer;
+
+}
